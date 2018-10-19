@@ -9,7 +9,8 @@
 
                     <div class="goods-list">
                         <transition  name="fade" >
-                            <goods_list @scroll_tb="scrollToBottom":show_type="show_type" v-bind:key="show_type" :data="goods_data" v-if="goods_data && goods_data.length > 0"></goods_list>
+                            <goods_list @scroll_tb="scrollToBottom"
+                            :show_type="show_type" v-bind:key="show_type" :data="goods_data" v-if="goods_data && goods_data.length > 0"></goods_list>
 
                         </transition>
                         <!--<inline-loading :show="showInlineLoad" ></inline-loading>-->

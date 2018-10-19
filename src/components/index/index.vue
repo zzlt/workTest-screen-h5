@@ -1,6 +1,6 @@
 <template>
     <div>
-        <headTop  />
+        <headTop :act="data.act" :appid="data.appid" />
     </div>
 </template>
 <script>

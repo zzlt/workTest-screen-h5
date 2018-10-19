@@ -1,11 +1,12 @@
 <template>
     <div>
-        head
+        <div>{{act}} {{appid}}</div>
     </div>
 </template>
 <script>
 export default {
   name: 'headTop',
+  props: ['act', 'appid'],
   data() {
     return {
       
